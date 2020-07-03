@@ -1,0 +1,228 @@
+body{margin: 0;}
+body video{
+  max-width: 100%;
+  height: auto;}
+#home{background-color: #dbedf3;}
+.meniuwork{position: fixed; z-index: 98;
+  background-color: #878ecd;
+  width: 0; height: 100%;
+  right: 0;
+  padding-top: 13%;
+  transition: 0.5s;
+}
+
+.meniuwork a{text-decoration: none;
+  display: block;
+  margin: 0;
+  padding-left: 10%;
+  color: #404b69;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 3em;
+  transition-duration: 0.5s;
+}
+@media screen and (max-width:719px){
+  .meniuwork a{font-size: 2em;}
+}
+@media screen and (max-width:480px){
+  .meniuwork a{font-size: 1.5em;}
+}
+.x-work {position: absolute;
+  top: 0; left: 80%;
+  padding-top: 10%;
+}
+.homecopil{ position: absolute;
+  right: 0;
+  width: 66%;
+  background-color: #404b69;
+}
+.io{
+  width: 39%;
+  margin-top: 3%;
+  margin-left: 37%;
+  animation: io 0.5s ease-out 3s forwards;
+}
+@keyframes io {from {margin-left: 37%}
+                  to {margin-left: 8%}}
+
+/*
+.simon{position: relative;}
+.S{display: inline-block;
+  position: absolute;
+  top: 272px;
+  left: 430px;
+  animation: hover 1ms backwards paused;
+}
+.I{display: inline-block;
+  position: absolute;
+  top: 272px;
+  left: 572px;
+  animation: hover 1ms backwards paused;
+}
+.M{display: inline-block;
+  position: absolute;
+  top: 272px;
+  left: 713px;
+  animation: hover 1ms backwards paused;
+}
+.O{display: inline-block;
+  position: absolute;
+  top: 272px;
+  left: 855px;
+  animation: hover 1ms backwards paused;
+}
+.N{display: inline-block;
+  position: absolute;
+  top: 272px;
+  left: 998px;
+  animation: hover 1ms backwards paused;
+}
+.S:active,
+.S:focus,
+.S:hover {
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+.I:active,
+.I:focus,
+.I:hover {
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+.M:active,
+.M:focus,
+.M:hover {
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+.O:active,
+.O:focus,
+.O:hover {
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+.N:active,
+.N:focus,
+.N:hover {
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+@keyframes hover {
+from {opacity: 0;}
+  to {opacity: 1;}
+}
+*/
+
+.baranav{position: fixed; z-index: 99;
+  display: flex; justify-content: space-around;
+  background-color:#dbedf3;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 0.8%; padding-bottom: 0.8%;
+}
+.baranav a{ text-decoration: none;
+  font-family: 'Major Mono Display', monospace;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #404b69;
+  transition-duration: 0.5s;
+}
+@media screen and (max-width:719px){
+  .baranav a{font-size: 1.2em;}
+}
+@media screen and (max-width:480px){
+  .baranav a{font-size: 1em;}
+}
+h1{
+  margin: 0;
+  padding-left: 10%;
+  color: #dbedf3;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 15vw;
+}
+.im{padding-top: 14.8%;}
+.nume{padding-top: 0;
+  animation: hover 1ms backwards paused;
+}
+.nume:active,
+.nume:focus,
+.nume:hover {
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+@keyframes hover {
+from {opacity: 0;}
+  to {opacity: 1;}
+}
+.shy{padding-top: 0;
+    transform: translateY(-100%);
+    animation: shy 0.5s ease-out 3s forwards;
+}
+@keyframes shy {from{transform: translateY(-100%);}
+                  to{transform: translateY(0%);}}
+
+
+#bitsbobs{
+  background-color:#404b69;
+  color: #dbedf3;
+  padding: 5% 5%;
+}
+.descriere a{color: #dbedf3;
+  text-decoration: none;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 2em;
+  transition-duration: 0.5s;
+}
+@media screen and (min-width:480px){
+  .descriere a{font-size: 3em;}
+}
+.carousel{ text-align: center;}
+.carousel-indicators li{
+  margin: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+.carousel-item img{
+  max-width: 100%;
+  max-height: 480px;
+  height: auto;
+}
+
+#endageism{
+  background-color:#878ecd;
+  color: #404b69;
+  padding: 5% 5%;
+}
+.EA a{color: #404b69}
+#valhalla{
+  background-color:#404b69;
+  color: #dbedf3;
+  padding: 5% 5%;
+}
+#vikings{
+  background-color:#878ecd;
+  color: #404b69;
+  padding: 5% 5%;
+}
+.Vik a{color: #404b69}
+#contact{
+  background-color:#404b69;
+  color: #dbedf3;
+  padding: 5% 5%;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+@media screen and (min-width:480px){
+  h2{font-size: 2em;}
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+@media screen and (min-width:480px){
+  p{font-size: 1.5em;}
+}
+a:hover {color: #f73859; letter-spacing: 5px;}
