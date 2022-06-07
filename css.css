@@ -1,0 +1,143 @@
+body{margin: 0;}
+body video{
+  max-width: 100%;
+  height: auto;}  
+
+section{
+  background-color:#302736;
+  color: #ffcc96;
+  padding: 5% 5%;
+}
+#acasa{padding: 0}
+#about{padding-top: 20%}
+#bitsbobs{padding-top: 10%}
+
+.meniu{position: fixed; z-index: 98;
+  background-color: #9c3d54;
+  width: 0; height: 100%;
+  right: 0;
+  padding-top: 30%;
+  transition: 0.5s;
+}
+.meniu.inchide{width:70%}
+@media screen and (min-width:576px){
+  .meniu{padding-top: 25%;}}
+@media screen and (min-width:768px){
+  .meniu{padding-top: 20%;}}
+
+.meniu a{text-decoration: none;
+  display: block;
+  margin: 0;
+  padding-left: 15%;
+  color: #ffcc96;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  transition-duration: 0.5s;
+}
+@media screen and (min-width:576px){
+  .meniu a{font-size: 2em; padding-left: 20%;}}
+@media screen and (min-width:768px){
+  .meniu a{font-size: 3em; padding-left: 30%;}}  
+a:hover {letter-spacing: 5px;}
+
+/*.intro, .fly{ width: 50%; margin-top: 5%;}
+.intro{ 
+  margin-left: 25%;
+  opacity: 1;
+  animation: introut 8s forwards;}
+@keyframes introut {from {opacity: 1;}
+                    to {opacity: 0;}}
+.fly{position:absolute;
+  margin-left: -50%; 
+  opacity: 0;
+  animation: flyin 8s forwards;}
+@keyframes flyin {from {opacity: 0;}
+                  to {opacity: 1;}}}*/
+#intro{
+  width: 50%;
+  padding-top: 5%;
+  margin-left: 25%;
+}
+#stinger{padding: 0;}
+#clipbm{padding: 0;}
+
+.baranav{position: fixed; z-index: 99;
+  display: flex; 
+  justify-content: space-between;
+  overflow: hidden;
+  width: 100%;
+}
+.baranav a{ text-decoration: none;
+  font-family: 'Major Mono Display', monospace;
+  font-weight: bold;
+  font-size: 2em;
+  color: #ff8474;
+  transition-duration: 0.5s;
+}
+@media screen and (min-width:576px){
+  .baranav a{font-size: 2.5em;}}
+@media screen and (min-width:768px){
+  .baranav a{font-size: 3em;}}
+
+.simonshy{
+  margin: 5%;
+  opacity: 0;
+  animation: menclose 0.5s ease-out 6s forwards;
+} 
+.menclose{
+  margin: 7%;
+  width: 7vw;
+  opacity: 0;
+  animation: menclose 0.5s ease-out 6s forwards;
+}
+@keyframes menclose {from {opacity: 0;}
+                       to {opacity: 1;}}
+.menclose:after, 
+.menclose:before {
+  background-color: #ff8474;
+  border-radius: 0.2vw;
+  content: '';
+  display: block;
+  height: 2vw;
+  margin: 0.6vw 0;
+  transition: all .2s ease-in-out;
+}
+.menclose.deschide:before {transform: translateY(0.6vw) rotate(135deg);}
+.menclose.deschide:after {transform: translateY(-0.6vw) rotate(-135deg);}
+
+.carousel{ text-align: center;}
+.carousel-control-prev, .carousel-control-next{width: 5%;}
+.carousel-indicators li{
+  margin: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+.carousel-item img{
+  max-width: 100%;
+  max-height: 576px;
+  height: auto;
+}
+#contact{
+  background-color:#ffcc96;
+  color: #302736;
+  padding: 5% 5%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+}
+@media screen and (min-width:576px){
+  h1 {font-size: 1.6em;}}
+@media screen and (min-width:768px){
+  h1 {font-size: 2em;}}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+@media screen and (min-width:576px){
+  p {font-size: 1.2em;}}
+@media screen and (min-width:768px){
+  p {font-size: 1.6em;}}
