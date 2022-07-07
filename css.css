@@ -112,7 +112,7 @@ a:hover {letter-spacing: 5px;}
 .menclose.deschide:after {transform: translateY(-0.6vw) rotate(-135deg);}
 
 .carousel{ text-align: center;}
-.carousel-control-prev, .carousel-control-next{width: 5%;}
+.carousel-control-prev, .carousel-control-next{width: 5%; z-index: 3;}
 .carousel-indicators li{
   margin: 5px;
   width: 20px;
