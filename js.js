@@ -30,3 +30,11 @@ var animation = bodymovin.loadAnimation({
   autoplay: true,
   path:"SStalpa.json"
 });
+
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById("mail"),
+  renderer: "svg",
+  loop: true,
+  autoplay: true,
+  path:"papermail.json"
+});

@@ -16,22 +16,26 @@ body video{
 }
 @keyframes filter {from {background-color: rgba(0,0,0,0.8);}
                        to {background-color: rgba(0,0,0,0);}} 
-section{
+section{padding: 5% 5%;
   background-color:#302736;
   color: #ffcc96;
-  padding: 5% 5%;
 }
 #acasa{padding: 0;}
-#bitsbobs{padding-top: 10%;}
+#clipbm{padding: 0;}
+#stinger{padding: 0;}
+#bitsbobs{padding-top: 10%;
+  padding: 5% 5%;}
 #about{padding-top: 10%;
+  padding: 5% 5%;
   display: flex; 
   justify-content: space-between;
 }
-#contact{
+#contact{padding-top: 10%;
   background-color:#ffcc96;
   color: #302736;
-  padding: 5% 5%;
 }
+#intro{width: 50%;}
+#talpa{width: 40%;}
 
 .meniu{position: fixed; z-index: 98;
   background-color: #9c3d54;
@@ -59,13 +63,8 @@ section{
   .meniu a{font-size: 2em; padding-left: 20%;}}
 @media screen and (min-width:768px){
   .meniu a{font-size: 3em; padding-left: 30%;}}
-    
-a:hover {letter-spacing: 5px;}
 
-#intro{width: 50%;}
-#talpa{width: 40%;}
-#stinger{padding: 0;}
-#clipbm{padding: 0;}
+a:hover {letter-spacing: 5px;}
 
 .baranav{position: fixed; z-index: 99;
   display: flex; 
@@ -125,16 +124,25 @@ a:hover {letter-spacing: 5px;}
   height: auto;
 }
 
-h1 { padding-top: 15%;
+h1 {padding-top: 15%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6em;
+}
+@media screen and (min-width:576px){
+  h1 {font-size: 2em;}}
+@media screen and (min-width:768px){
+  h1 {font-size: 3em;}}
+
+h2 { 
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2em;
 }
 @media screen and (min-width:576px){
-  h1 {font-size: 1.6em;}}
+  h2 {font-size: 1.6em;}}
 @media screen and (min-width:768px){
-  h1 {font-size: 2.5em;}}
+  h2 {font-size: 2em;}}
 
-p {
+p {padding-top: 3%;
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
 }
