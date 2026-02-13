@@ -12,8 +12,8 @@ body video{
   right: 0;
   bottom: 0;
   background-color: rgba(0,0,0,0.9);
-  animation: filter 5.5s forwards;
-  animation: dispare 5.5s forwards;
+  animation: filter 5s forwards;
+  animation: dispare 5s forwards;
 }
 @keyframes filter {from {background-color: rgba(0,0,0,0.9);}
                        to {background-color: rgba(0,0,0,0);}}
@@ -155,6 +155,7 @@ p {padding-top: 1%;
   p {font-size: 1.2em;}}
 @media screen and (min-width:768px){
   p {font-size: 1.5em;}}
+
 
 
 
